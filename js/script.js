@@ -22,9 +22,7 @@ function setupCTAButtons() {
             this.style.transform = 'scale(0.95)';
             setTimeout(() => {
                 this.style.transform = 'scale(1.05)';
-            }, 100);
-            
-            alert('Redirecionando para inscrição...');
+            }, 100);            
         });
     });
 }
