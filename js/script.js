@@ -36,13 +36,14 @@ window.addEventListener('load', () => {
     setupCTAButtons();
 });
 
-// Parallax effect for hero section
+// Parallax effect for HeroSection background
 window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
-    const parallax = document.querySelector('section');
+    const hero = document.querySelector('section'); // seleciona a HeroSection
     const speed = scrolled * 0.5;
     
-    if (parallax) {
-        parallax.style.transform = `translateY(${speed}px)`;
+    if (hero) {
+        // Apenas altera a posição do background, sem usar transform
+        hero.style.backgroundPosition = `center ${speed}px`;
     }
 });
