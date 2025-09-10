@@ -283,66 +283,56 @@
 
     <!-- Nova Seção com Foto -->
     <section class="py-20 bg-gradient-to-br from-dark-bg to-darker-bg">
-
-        <div class="lg:w-1/3 reveal">
+        <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12">
+      
+          <!-- Imagem -->
+          <div class="w-full md:w-1/3 reveal">
             <div class="relative">
-                <div class="w-72 h-72 mx-auto bg-gradient-to-br from-gold to-gold-dark rounded-2xl p-1">
-                    <div class="w-full h-full bg-gray-800 rounded-2xl flex items-center justify-center">
-                        <svg class="w-24 h-24 text-gold" fill="currentColor" viewBox="0 0 24 24">
-                            <path
-                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                        </svg>
-                    </div>
+              <div class="w-full aspect-square bg-gradient-to-br from-gold to-gold-dark rounded-2xl p-1">
+                <div class="w-full h-full bg-gray-800 rounded-2xl flex items-center justify-center">
+                  <svg class="w-24 h-24 text-gold" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
                 </div>
-                <div class="absolute -inset-4 bg-gradient-to-r from-gold/20 to-transparent rounded-2xl blur-xl"></div>
+              </div>
+              <div class="absolute -inset-4 bg-gradient-to-r from-gold/20 to-transparent rounded-2xl blur-xl"></div>
             </div>
-        </div>
-
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col lg:flex-row items-center justify-between max-w-6xl mx-auto">
-
-                <!-- Conteúdo de Texto -->
-                <div class="lg:w-2/3 lg:pr-12 mb-8 lg:mb-0">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-6 reveal">
-                        Eu sou <span class="gradient-text">Gabrielly Torres</span>
-                    </h2>
-
-                    <p class="text-lg md:text-xl mb-6 text-gray-300 leading-relaxed reveal">
-                        Advogada especialista em BPC/LOAS e criadora de conteúdos práticos para advogados iniciantes. O
-                        que vou te entregar não é teoria solta: são modelos prontos e estratégias que realmente
-                        funcionam na prática.
-                    </p>
-
-                    <div class="bg-gold/10 border border-gold/30 rounded-lg p-6 mb-6 reveal">
-                        <p class="text-lg text-white leading-relaxed">
-                            🔥 <span class="text-gold font-bold">OFERTA ESPECIAL DE LANÇAMENTO</span> - Por tempo
-                            limitado, o Combo BPC/LOAS completo por apenas <span class="text-gold font-bold">R$
-                                19,90</span> (ou 2x de R$ 10,47)
-                        </p>
-                    </div>
-
-                    <p class="text-lg mb-6 text-gray-300 leading-relaxed reveal">
-                        Exclusivo para as <span class="text-gold font-semibold">primeiras alunas</span> que desejam
-                        dominar a prática do BPC/LOAS com segurança, confiança e modelos prontos para aplicar.
-                    </p>
-
-                    <p class="text-xl font-semibold mb-8 text-white reveal">
-                        Essa pode ser a virada da sua advocacia. Estou pronta para te entregar tudo na prática. <span
-                            class="gradient-text">Você vem comigo?</span>
-                    </p>
-
-                    <button
-                        class="bg-gold hover:bg-gold-dark text-black font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-gold/50 reveal"
-                        onclick="window.location.href='https://pay.hotmart.com/E100636860U?off=942kjzz8&hotfeature=51&_hi=eyJjaWQiOiIxNzU0NjkzNjk1NDU3MjgzODAxMjMyMDQ4ODAzOTAwIiwiYmlkIjoiMTc1NDY5MzY5NTQ1NzI4MzgwMTIzMjA0ODgwMzkwMCIsInNpZCI6ImVkZDJhOWFkNWJhNjRmZjE5Nzk2ODMyM2FiY2JiYzYxIn0=.1756922783893&bid=1756922786462'">
-                        Quero o Combo por R$ 19,90
-                    </button>
-                </div>
-
-                <!-- Segunda Foto -->
-
+          </div>
+      
+          <!-- Conteúdo -->
+          <div class="w-full md:w-2/3">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 reveal">
+              Eu sou <span class="gradient-text">Gabrielly Torres</span>
+            </h2>
+      
+            <p class="text-lg md:text-xl mb-6 text-gray-300 leading-relaxed reveal">
+              Advogada Previdenciarista e criadora de conteúdos práticos para advogados iniciantes. O que vou te entregar não é teoria solta: são modelos prontos e estratégias que realmente funcionam na prática.
+            </p>
+      
+            <div class="bg-gold/10 border border-gold/30 rounded-lg p-6 mb-6 reveal">
+              <p class="text-lg text-white leading-relaxed">
+                🔥 <span class="text-gold font-bold">OFERTA ESPECIAL DE LANÇAMENTO</span> - Por tempo limitado, o Combo BPC/LOAS completo por apenas <span class="text-gold font-bold">R$ 19,90</span> (ou 2x de R$ 10,47)
+              </p>
             </div>
+      
+            <p class="text-lg mb-6 text-gray-300 leading-relaxed reveal">
+              Exclusivo para as <span class="text-gold font-semibold">primeiras alunas</span> que desejam dominar a prática do BPC/LOAS com segurança, confiança e modelos prontos para aplicar.
+            </p>
+      
+            <p class="text-xl font-semibold mb-8 text-white reveal">
+              Essa pode ser a virada da sua advocacia. Estou pronta para te entregar tudo na prática. <span class="gradient-text">Você vem comigo?</span>
+            </p>
+      
+            <button
+              class="bg-gold hover:bg-gold-dark text-black font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-gold/50"
+              onclick="window.location.href='https://pay.hotmart.com/E100636860U?off=942kjzz8&hotfeature=51&_hi=eyJjaWQiOiIxNzU0NjkzNjk1NDU3MjgzODAxMjMyMDQ4ODAzOTAwIiwiYmlkIjoiMTc1NDY5MzY5NTQ1NzI4MzgwMTIzMjA0ODgwMzkwMCIsInNpZCI6ImVkZDJhOWFkNWJhNjRmZjE5Nzk2ODMyM2FiY2JiYzYxIn0=.1756922783893&bid=1756922786462'">
+              Quero o Combo por R$ 19,90
+            </button>
+          </div>
+      
         </div>
-    </section>
+      </section>
+      
     <!-- JavaScript externo -->
     <script src="js/script.js"></script>
 </body>
